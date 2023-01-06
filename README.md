@@ -1,2 +1,3 @@
 # ProyectoAPPWeb
-Implementación de proyecto en ninjamock
+Implementación de proyecto de aplicaciones web
+
