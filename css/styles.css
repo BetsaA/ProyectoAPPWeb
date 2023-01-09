@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(49, 72, 120,100);
+}
+
+h1 {
+    color: #daa404; ;
+    text-align: center;
+}
+
+button{
+    border-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+
+.logo{
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header{
+    text-align: center;
+    
+}
+
+nav{
+    background-color: #daa404;
+    text-align: left;
+    border-radius: 10px;
+}
