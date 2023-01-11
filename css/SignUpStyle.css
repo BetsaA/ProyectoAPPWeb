@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #304673;
+    color: white;
+}
+
+.FormSignUp {
+    background-color: #1D2C4F;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    width: 450px;
+    border: 5px solid #1D2C4F;
+    padding: 15px;
+}
+.form-logo{
+    position: relative;
+    margin: 0 auto;
+    width: 126px;
+    height: 121px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    width: 150px;
+    top: -10px;
+    left: -10px;
+}
+
+.h1SignUp {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 15px;
+}
+
+.FormSignUp label {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.FormSignUp label p {
+    width: 110px;
+    text-align: left;
+}
+
+.FormSignUp label input {
+    width: 100%;
+    height: 30px;
+}
