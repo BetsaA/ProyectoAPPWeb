@@ -1,18 +1,20 @@
 body{
+    font-family: 'Roboto Condensed', sans-serif;
     background-color:  #304673;
 }
 
-h1 {
+.title {
     color: #daa404; ;
     text-align: center;
+    font-size:100px;
     
 }
 
 .form-logo{
     position: relative;
     margin: 0 auto;
-    width: 126px;
-    height: 121px;
+    width: 400px;
+    height: 400px;
     background-color: white;
     border-radius: 50%;
     overflow: hidden;
@@ -21,7 +23,7 @@ h1 {
 .form-logo-nav{
     position: absolute;
     width: 70px;
-    top: 13px;
+    top: 10px;
     left: 20px;
     width: 50px;
     height: 50px;
@@ -32,9 +34,9 @@ h1 {
 
 .img {
     position: absolute;
-    width: 150px;
-    top: -10px;
-    left: -10px;
+    width: 500px;
+    top: -35px;
+    left: -40px;
 }
 
 .img_nav {
@@ -45,13 +47,15 @@ h1 {
 
 }
 
-button{
+.items-nav{
+    font-weight: bolder;
+    font-size: 15px;
+    color: #daa404;
     position: relative;
     left: 65px;
-    border-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 7px;
     border-radius: 5px;
 
 }
@@ -71,5 +75,6 @@ header{
 nav{
     background-color: #1D2C4F;
     text-align: left;
+    padding: 25px;
     border-radius: 10px;
 }
