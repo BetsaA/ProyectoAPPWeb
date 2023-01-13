@@ -26,7 +26,7 @@
     </nav>
 
     <section>
-        <form class="FormAdd">
+        <form class="FormAdd" action="/Main.html">
             <h1 class="h1AddMember">Add Member</h1>
             <div class="form-logo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
@@ -56,20 +56,20 @@
 
                 <label for="mes">
                     <p>1 Month</p>
-                    <input type="radio" id="mes" name="fav_language" value="Mes">
+                    <input type="radio" id="mes" name="fav_language" value="Mes" required>
                 </label>
                 <label for="trimestral">
                     <p>3 Months</p>
-                    <input type="radio" id="trimestral" name="fav_language" value="trimestral">
+                    <input type="radio" id="trimestral" name="fav_language" value="trimestral" required>
                 </label>
                 <label for="anual">
                     <p>1 Year</p>
-                    <input type="radio" id="anual" name="fav_language" value="anual">
+                    <input type="radio" id="anual" name="fav_language" value="anual" required>
                 </label><br><br>
             </div>
             <br>
             <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
-            <input class="inputAdd" type="button" value="Add" onclick="window.location='/Main.html'">
+            <input class="inputAdd" type="submit" value="Add" >
         </form>
 
 
