@@ -4,14 +4,14 @@
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    background-color:  #304673;
+    background-color:  black;
     margin: 0px;
 
 
 }
 
 .title {
-    color: #daa404; ;
+    color: #EDB62B; ;
     text-align: center;
     font-size:100px;
     
@@ -19,10 +19,11 @@ body{
 
 .form-logo{
     position: relative;
+    top: 100px;
     margin: 0 auto;
     width: 400px;
     height: 400px;
-    background-color: white;
+    background-color: #EDB62B;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -34,7 +35,7 @@ body{
     left: 20px;
     width: 50px;
     height: 50px;
-    background-color: white;
+    background-color: #EDB62B;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -59,7 +60,7 @@ body{
     left: 40px;
     font-weight: bolder;
     font-size: 15px;
-    color: #daa404;
+    color: #EDB62B;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -80,7 +81,7 @@ header{
 }
 
 nav{
-    background-color: #1D2C4F;
+    background-color: #282930;
     text-align: left;
     padding: 25px;
     border-radius: 10px;
