@@ -1,11 +1,11 @@
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
     background-color:  black;
-    margin: 0px;
+    margin: 0p;
 
 
 }
@@ -13,6 +13,7 @@ body{
 .title {
     color: #EDB62B; ;
     text-align: center;
+    margin: 0px;
     font-size:100px;
     
 }
@@ -85,5 +86,5 @@ nav{
     text-align: left;
     padding: 25px;
     border-radius: 10px;
-    margin: 0px;
+    margin: -10px;
 }

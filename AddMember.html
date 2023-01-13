@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/AddMemeber.css">
+    <title>Add Member</title>
 </head>
+
 <body>
-    
+    <nav>
+        <div class="form-logo-nav">
+            <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img_nav">
+        </div>
+        <div class="item-nav">
+            <a class="items-nav" href="Main.html">Home</a>
+        </div>
+
+    </nav>
+
+    <section>
+        <form class="FormSignUp">
+            <h1 class="h1AddMember">Add Member</h1>
+            <div class="form-logo">
+                <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
+            </div>
+            <label for="name">
+                <p>Nombre:</p>
+                <input id="name" name="name" type="text" placeholder="Ingrese el nombre">
+            </label>
+            <label for="phone">
+                <p>Teléfono:</p>
+                <input id="phone" name="phone" type="phone" placeholder="Ingrese el teléfono">
+            </label>
+            <label for="email">
+                <p>Email:</p>
+                <input id="email" name="email" type="email" placeholder="Ingrese el email">
+            </label>
+            <label for="altura">
+                <p>Altura:</p>
+                <input id="altura" name="altura" type="text" placeholder="Ingrese la altura">
+            </label>
+            <label for="altura">
+                <p>Peso:</p>
+                <input id="peso" name="peso" type="text" placeholder="Ingrese el peso">
+            </label>
+            <p>Tipo de Membresia</p>
+            <div class="div_radio">
+
+                <label for="mes">
+                    <p>1 Month</p>
+                    <input type="radio" id="mes" name="fav_language" value="Mes">
+                </label>
+                <label for="trimestral">
+                    <p>3 Months</p>
+                    <input type="radio" id="trimestral" name="fav_language" value="trimestral">
+                </label>
+                <label for="anual">
+                    <p>1 Year</p>
+                    <input type="radio" id="anual" name="fav_language" value="anual">
+                </label><br><br>
+            </div>
+            <br>
+                <input class="button_Add" type="submit" value="Add Member" onclick="window.location='/Main.html'">
+        </form>
+
+
+    </section>
 </body>
+
 </html>
