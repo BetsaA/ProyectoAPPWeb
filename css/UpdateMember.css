@@ -98,8 +98,8 @@ body {
 }
 
 .SearchButton {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     padding: 5px 5px;
     color: #000000;
@@ -110,7 +110,7 @@ body {
 .imgSearch {
     position: relative;
     width: 36px;
-    top: -5px;
+    top: -7px;
     left: -5px;
 }
 
