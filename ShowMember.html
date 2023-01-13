@@ -27,7 +27,7 @@
 
     <section>
         <form class="FormUpdate">
-            <h1>Update Member</h1>
+            <h1 class="h1AddMember">Show Member</h1>
             <div class="divFormLogo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
             </div>
@@ -40,18 +40,20 @@
             </label>
             <label for="name">
                 <p>Name:</p>
-                <input id="name" name="name" type="text" placeholder="Ingrese el nombre">
+                <input id="name" name="name" type="text" disabled>
             </label>
             <label for="last name">
                 <p>Last name:</p>
-                <input id="last name" name="last name" type="last name" placeholder="Last name">
+                <input id="last name" name="last name" type="last name"  disabled>
             </label>
             <label for="phone">
                 <p>Cell phone number:</p>
-                <input id="phone" name="phone" type="phone" placeholder="Cell phone number">
+                <input id="phone" name="phone" type="phone"  disabled>
             </label>
-            <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
-            <input class="inputSave" type="submit" value="Save" onclick="window.location='/Main.html'">
+            <label for="membership">
+                <p>Type of Membership: </p>
+                <input id="membership" name="membership" type="text" disabled>
+            </label>
         </form>
 
 
