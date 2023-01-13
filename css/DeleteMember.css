@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #686868;
+    background-color: #282930;
     color: #EDB62B;
     margin: 0px;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .FormDelete {
-    background-color: #282930;
+    background-color: #686868;
     margin: 0 auto;
     text-align: center;
     margin-top: 100px;
