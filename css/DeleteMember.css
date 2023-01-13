@@ -13,6 +13,10 @@ body{
     color: #EDB62B;
     margin: 0px;
 }
+.FormSignUp {
+    width: 500px;
+    margin: 0 auto;
+}
 
 .form-logo-nav{
     position: absolute;
@@ -47,10 +51,10 @@ body{
 }
 
 .btn-open-popup{
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: darkgrey;
     display: block;
     background-color: black;

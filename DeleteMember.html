@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     
-    <link rel="stylesheet" href="css/DeleteMember.css">
+    <link rel="stylesheet" href="css/AddMember.css">
+    <link rel="stylesheet" href="css/PopUp.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,9 +28,9 @@
 
     <section>
         <form class="FormSignUp">
-            <h1 class="h1DeleteMember">Delete Member</h1>
+           <h1 class="h1DeleteMember">Delete Member</h1> 
             <div class="form-logo">
-                <img src="#" alt="Fit Gym Logo" class="img">
+                <img src="img/User.png" alt="Fit Gym Logo" class="img">
             </div>
             <label for="id">
                 <p>ID:</p>
@@ -48,18 +49,22 @@
                 <input id="phone" name="phone" type="phone" placeholder="Cell phone number">
             </label>
             <br>
-            <a href="#modal" class="btn-open-popup">Delete</a>
             <div class="container-all" id="modal">
                 <div class="popup">
                     <div class="container-text">
                         <h1>Are you sure?</h1>
                         <p>Are you sure want to perform this action?</p>
                     </div>
+                    <div class="buttons">
+                        <button>Si</button>
+                        <button>No</button>
+                    </div>
                 </div>
                 <a href="#" class="btn-close-popup">X</a>
-            </div>
+            </div> 
             <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
-            <input class="button_Save" type="button" value="Save" onclick="window.location='/Main.html'"> 
+            <!-- <input class="button_Save" type="button" value="Save" onclick="window.location='/Main.html'">  -->
+            <a href="#modal" class="btn-open-popup">Delete</a>
         </form>
 
 

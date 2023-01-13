@@ -9,13 +9,14 @@
 body,
 html{
     background-color:darkgrey;
+    /* position: relative; */
 
 }
 .btn-open-popup{
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: darkgrey;
     display: block;
     background-color: black;
@@ -27,6 +28,8 @@ html{
     width: 100%;
     height: 100%;
     position: fixed;
+    left: 0;
+    top: 0;
     padding: 40px;
     visibility: hidden;
     opacity: 0;
@@ -57,6 +60,8 @@ html{
     height: 500px;
     position: relative;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background: white;
     visibility: hidden;
     top: -80%;
@@ -83,7 +88,7 @@ html{
     font-size: 16px;
 }
 
-.button-close-popup{
+.btn-close-popup{
     width: 50px;
     height: 50px;
     position: absolute;
@@ -92,7 +97,17 @@ html{
     padding: 20px;
     background: black;
     color: white;
+    z-index: 10;
     border-radius: 50%;
     line-height: 10px;
 }
+ .buttons {
+    display: flex;
+    gap: 10px;
+ }
 
+ .buttons button {
+    width: 60px;
+    padding: 10px 30px;
+    /* text-align: center; */
+ }
