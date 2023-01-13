@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/AddMember.css">
+    <link rel="stylesheet" href="css/UpdateMember.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,14 +26,17 @@
     </nav>
 
     <section>
-        <form class="FormSignUp">
+        <form class="FormUpdate">
             <h1 class="h1UpdateMember">Update Member</h1>
-            <div class="form-logo">
+            <div class="formLogo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
             </div>
             <label for="id">
                 <p>ID:</p>
                 <input id="id" name="id" type="id" placeholder="ID">
+                <button type="button" class="SearchButton">
+                    <img src="img/search.png" alt="Search" class="imgSearch">
+                </button>
             </label>
             <label for="name">
                 <p>Name:</p>
@@ -47,9 +50,8 @@
                 <p>Cell phone number:</p>
                 <input id="phone" name="phone" type="phone" placeholder="Cell phone number">
             </label>
-            <br>
             <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
-            <input class="button_Save" type="button" value="Save" onclick="window.location='/Main.html'">
+            <input class="inputSave" type="button" value="Save" onclick="window.location='/Main.html'">
         </form>
 
 

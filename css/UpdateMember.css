@@ -7,14 +7,16 @@ html {
 *::before {
     box-sizing: inherit;
 }
-body{
+
+body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #686868;;
+    background-color: #686868;
+    ;
     color: #EDB62B;
     margin: 0px;
 }
 
-.form-logo-nav{
+.form-logo-nav {
     position: absolute;
     width: 70px;
     top: 10px;
@@ -33,7 +35,7 @@ body{
     left: -6px;
 }
 
-.items-nav{
+.items-nav {
     position: relative;
     left: 40px;
     font-weight: bolder;
@@ -44,4 +46,110 @@ body{
     margin-bottom: 20px;
     border-radius: 5px;
 
+}
+
+.FormUpdate {
+    background-color: #282930;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    width: 450px;
+    border: 3px solid #EDB62B;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.FormUpdate label {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.FormUpdate label p {
+    width: 110px;
+    text-align: right;
+}
+
+.FormUpdate label input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.inputSave {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.formLogo {
+    position: relative;
+    margin: 0 auto;
+    width: 126px;
+    height: 121px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.SearchButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px 5px;
+    color: #000000;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.imgSearch {
+    position: relative;
+    width: 36px;
+    top: -5px;
+    left: -5px;
+}
+
+.img {
+    position: absolute;
+    width: 150px;
+    top: -10px;
+    left: -10px;
+}
+
+.h1AddMember {
+    border-bottom: 2px solid #EDB62B;
+    padding-bottom: 15px;
+}
+
+.FormSignUp label {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.FormSignUp label p {
+    width: 110px;
+    text-align: right;
+}
+
+.FormSignUp label input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.div_radio {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+nav {
+    background-color: #282930;
+    text-align: left;
+    padding: 25px;
+    margin: auto;
 }
