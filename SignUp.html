@@ -22,7 +22,7 @@
     
       </nav>
     <section>
-        <form class="FormSignUp">
+        <form class="FormSignUp" action="Login.html">
             <h1 class="h1SignUp">Sign Up</h1>
             <div class="divFormLogo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
@@ -33,7 +33,7 @@
             </label>
             <label for="phone">
                 <p>Phone:</p>
-                <input id="phone" name="phone" type="phone" placeholder="Write your phone" required>
+                <input id="phone" name="phone" type="number" placeholder="Write your phone" required>
             </label>
             <label for="email">
                 <p>Email:</p>
@@ -43,7 +43,7 @@
                 <p>Password:</p>
                 <input id="password" name="password" type="password" placeholder="Write your password" required>
             </label><br>
-            <input type="button" value="Sign Up" class="inputSignUp" onclick="window.location='/Login.html'"><br><br>       <!-- Cambiar a type submit para mandar datos y aplicar javascript -->
+            <input type="submit" value="Sign Up" class="inputSignUp"><br><br>       <!-- Cambiar a type submit para mandar datos y aplicar javascript -->
             <a href="Login.html" class="aLogin">Login</a>
             <p>Or create with</p>
             <div class="divButtonsFacebookGoogle">
