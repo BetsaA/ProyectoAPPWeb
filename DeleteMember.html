@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <link rel="stylesheet" href="css/DeleteMember.css">
     <link rel="stylesheet" href="css/PopUp.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 
 <body>
     <nav>
-        <div class="form-logo-nav">
+        <div class="divLogo">
             <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img_nav">
         </div>
         <div class="item-nav">
@@ -27,10 +27,10 @@
     </nav>
 
     <section>
-        <form class="FormSignUp">
-           <h1 class="h1DeleteMember">Delete Member</h1> 
-            <div class="form-logo">
-                <img src="img/User.png" alt="Fit Gym Logo" class="img">
+        <form class="FormDelete">
+            <h1 class="h1DeleteMember">Delete Member</h1>
+            <div class="divFormLogo">
+                <img src="img/User.png" alt="User photo" class="img">
             </div>
             <label for="id">
                 <p>ID:</p>
@@ -48,7 +48,6 @@
                 <p>Cell phone number:</p>
                 <input id="phone" name="phone" type="phone" placeholder="Cell phone number">
             </label>
-            <br>
             <div class="container-all" id="modal">
                 <div class="popup">
                     <div class="container-text">
@@ -61,10 +60,9 @@
                     </div>
                 </div>
                 <a href="#" class="btn-close-popup">X</a>
-            </div> 
+            </div>
             <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
-            <!-- <input class="button_Save" type="button" value="Save" onclick="window.location='/Main.html'">  -->
-            <a href="#modal" class="btn-open-popup">Delete</a>
+            <input class="inputDelete" type="button" value="Delete" onclick="window.location='#modal'"><br><br>
         </form>
 
 
