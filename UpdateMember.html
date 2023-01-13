@@ -27,13 +27,13 @@
 
     <section>
         <form class="FormUpdate">
-            <h1 class="h1UpdateMember">Update Member</h1>
-            <div class="formLogo">
+            <h1>Update Member</h1>
+            <div class="divFormLogo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
             </div>
             <label for="id">
                 <p>ID:</p>
-                <input id="id" name="id" type="id" placeholder="ID">
+                <input id="id" name="id" type="id" placeholder="ID" required>
                 <button type="button" class="SearchButton">
                     <img src="img/search.png" alt="Search" class="imgSearch">
                 </button>
@@ -51,7 +51,7 @@
                 <input id="phone" name="phone" type="phone" placeholder="Cell phone number">
             </label>
             <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
-            <input class="inputSave" type="button" value="Save" onclick="window.location='/Main.html'">
+            <input class="inputSave" type="submit" value="Save" onclick="window.location='/Main.html'">
         </form>
 
 

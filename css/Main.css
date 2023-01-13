@@ -68,6 +68,17 @@ body{
 
 }
 
+.items-nav-right{
+    position: absolute;
+    right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #EDB62B;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
 .logo{
     padding: 20px;
     border-radius: 100px;
