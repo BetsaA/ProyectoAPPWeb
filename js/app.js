@@ -17,3 +17,6 @@ about.addEventListener("click", function (e) {
     element.classList.add("active");
   }
 });
+function pulsar() {
+  alert("Are you sure want to perform this actio?");
+  }
