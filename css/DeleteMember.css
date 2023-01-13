@@ -15,6 +15,11 @@ body {
     margin: 0px;
 }
 
+.h1AddMember {
+    border-bottom: 2px solid #EDB62B;
+    padding-bottom: 15px;
+}
+
 .FormDelete {
     background-color: #282930;
     margin: 0 auto;
@@ -97,6 +102,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .img {

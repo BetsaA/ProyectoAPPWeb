@@ -15,6 +15,11 @@ body {
     margin: 0px;
 }
 
+.h1AddMember {
+    border-bottom: 2px solid #EDB62B;
+    padding-bottom: 15px;
+}
+
 .FormUpdate {
     background-color: #282930;
     margin: 0 auto;
