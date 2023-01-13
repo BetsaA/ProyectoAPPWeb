@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/UpdateMember.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@400;900&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Update Member</title>
 </head>
+
 <body>
-    
+    <nav>
+        <div class="form-logo-nav">
+            <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img_nav">
+        </div>
+        <div class="item-nav">
+            <a class="items-nav" href="Main.html">Home</a>
+        </div>
+
+    </nav>
+
+    <section>
+        <form class="FormUpdate">
+            <h1>Update Member</h1>
+            <div class="divFormLogo">
+                <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
+            </div>
+            <label for="id">
+                <p>ID:</p>
+                <input id="id" name="id" type="id" placeholder="ID" required>
+                <button type="submit" class="SearchButton">
+                    <img src="img/search.png" alt="Search" class="imgSearch">
+                </button>
+            </label>
+            <label for="name">
+                <p>Name:</p>
+                <input id="name" name="name" type="text" placeholder="Ingrese el nombre">
+            </label>
+            <label for="last name">
+                <p>Last name:</p>
+                <input id="last name" name="last name" type="last name" placeholder="Last name">
+            </label>
+            <label for="phone">
+                <p>Cell phone number:</p>
+                <input id="phone" name="phone" type="phone" placeholder="Cell phone number">
+            </label>
+            <!-- Cambiar a submit para enviar datos, por el momento esta button para poder navegar entre paginas -->
+            <input class="inputSave" type="submit" value="Save" onclick="window.location='/Main.html'">
+        </form>
+
+
+    </section>
 </body>
+
 </html>
