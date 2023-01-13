@@ -16,25 +16,25 @@
 
 <body class="bodyLogin">
     <section>
-        <form class="FormLogin">
+        <form class="FormLogin" action="/Main.html">
             <h1 class="h1Login">Login</h1>
             <div class="divFormLogo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
             </div>
             <label for="email">
                 <p>Email:</p>
-                <input id="email" name="email" type="email" placeholder="Write your email">
+                <input id="email" name="email" type="email" placeholder="Write your email" required>
             </label>
             <label for="password">
                 <p>Password:</p>
-                <input id="password" name="password" type="password" placeholder="Write your password">
+                <input id="password" name="password" type="password" placeholder="Write your password" required>
             </label>
             <div class="divRememberMe">
                 <input type="checkbox" value="RememberMe">
                 <p class="pRememberMe">Remember me</p>
             </div>
             <br>
-            <input type="button" value="Login" class="inputLogin" onclick="window.location='/Main.html'"><br><br>
+            <input type="submit" value="Login" class="inputLogin" "><br><br>
             <!-- Cambiar a type submit para mandar datos y aplicar javascript -->
             <a href="SignUp.html" class="aSignUp">Sign Up</a>
             <p>Or login with</p>
