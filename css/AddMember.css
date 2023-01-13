@@ -46,7 +46,7 @@ body{
 
 }
 
-.FormSignUp {
+.FormAdd {
     background-color: #282930;
     margin: 0 auto;
     text-align: center;
@@ -78,23 +78,25 @@ body{
     padding-bottom: 15px;
 }
 
-.FormSignUp label {
+.FormAdd label {
     display: flex;
     gap: 10px;
     justify-content: left;
     align-items: center;
 }
 
-.FormSignUp label p {
+.FormAdd label p {
     width: 110px;
     text-align: right;
 }
 
-.FormSignUp label input {
-    width: 100%;
+
+.FormAdd label input {
+    width: 50%;
     height: 30px;
     border-radius: 5px;
 }
+
 
 .div_radio {
     display: flex;
@@ -102,9 +104,10 @@ body{
     align-items: center;
 }
 
-.button_Add {
-    padding: 10px 20px;
+.inputAdd {
     border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
 }
 
 nav{
