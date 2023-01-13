@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/SignUpStyle.css">
-    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/LoginStyle.css">
+    <title>Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,21 +14,13 @@
         rel="stylesheet">
 </head>
 
-<body class="bodySignUp">
+<body class="bodyLogin">
     <section>
-        <form class="FormSignUp">
-            <h1 class="h1SignUp">Sign Up</h1>
+        <form class="FormLogin">
+            <h1 class="h1Login">Login</h1>
             <div class="divFormLogo">
                 <img src="img/LogoGym.png" alt="Fit Gym Logo" class="img">
             </div>
-            <label for="name">
-                <p>Name:</p>
-                <input id="name" name="name" type="text" placeholder="Write your name">
-            </label>
-            <label for="phone">
-                <p>Phone:</p>
-                <input id="phone" name="phone" type="phone" placeholder="Write your phone">
-            </label>
             <label for="email">
                 <p>Email:</p>
                 <input id="email" name="email" type="email" placeholder="Write your email">
@@ -36,10 +28,16 @@
             <label for="password">
                 <p>Password:</p>
                 <input id="password" name="password" type="password" placeholder="Write your password">
-            </label><br>
-            <input type="button" value="Sign Up" class="inputSignUp" onclick="window.location='/Login.html'"><br><br>       <!-- Cambiar a type submit para mandar datos y aplicar javascript -->
-            <a href="Login.html" class="aLogin">Login</a>
-            <p>Or create with</p>
+            </label>
+            <div class="divRememberMe">
+                <input type="checkbox" value="RememberMe">
+                <p class="pRememberMe">Remember me</p>
+            </div>
+            <br>
+            <input type="button" value="Login" class="inputLogin" onclick="window.location='/Login.html'"><br><br>
+            <!-- Cambiar a type submit para mandar datos y aplicar javascript -->
+            <a href="SignUp.html" class="aSignUp">Sign Up</a>
+            <p>Or login with</p>
             <div class="divButtonsFacebookGoogle">
                 <a href="https://google.com" target="_blank">
                     <img src="img/google.png" alt="Google" class="imgGoogle">

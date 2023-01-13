@@ -8,14 +8,13 @@ html {
     box-sizing: inherit;
 }
 
-.bodySignUp {
+.bodyLogin {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #686868;
     color: #EDB62B;
-    
 }
 
-.FormSignUp {
+.FormLogin {
     background-color: #282930;
     margin: 0 auto;
     text-align: center;
@@ -43,36 +42,36 @@ html {
     left: -10px;
 }
 
-.h1SignUp {
+.h1Login {
     border-bottom: 2px solid #EDB62B;
     padding-bottom: 15px;
 }
 
-.FormSignUp label {
+.FormLogin label {
     display: flex;
     gap: 10px;
     justify-content: left;
     align-items: center;
 }
 
-.FormSignUp label p {
+.FormLogin label p {
     width: 110px;
     text-align: right;
 }
 
-.FormSignUp label input {
+.FormLogin label input {
     width: 50%;
     height: 30px;
     border-radius: 5px;
 }
 
-.inputSignUp {
+.inputLogin {
     border-radius: 10px;
     font-size: 18px;
     padding: 10px 20px;
 }
 
-.FormSignUp a {
+.FormLogin a {
     font-size: 15px;
 }
 
@@ -83,6 +82,15 @@ html {
     align-items: center;
 }
 
+.divRememberMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pRememberMe{
+    font-size: 12px;
+}
 .imgGoogle {
     width: 45px;
 }
@@ -92,6 +100,6 @@ html {
     width: 45px;
 }
 
-.aLogin{
+.aSignUp{
     color: #ffffff;
 }
